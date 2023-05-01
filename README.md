@@ -41,18 +41,22 @@ To install and run the ETF Analyzer Web Application, follow these steps:
     python3 -m venv venv
 ```
     4. Activate the virtual environment
+```python
+    Windows:
+    venv\Scripts\activate
+    macOS/Linux:
+    source venv/bin/activate
+```
     5. Install the required dependencies
+```python
+    pip install -r requirements.txt
+```
     6. Run the web application
+```python
+    voila app.ipynb
+```
     7. Open your web browser and access the application at http://localhost:8866/
 
-```python
-  git clone https://github.com/your-username/etf-analyzer.git
-  cd etf-analyzer
-  python3 -m venv venv
-
-
-  
-```
 
 ---
 
