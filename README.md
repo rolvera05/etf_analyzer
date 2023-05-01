@@ -27,18 +27,13 @@ This project leverages jupyter lab and python 3.7 with the following packages:
 ## Installation Guide
 
 To install and run the ETF Analyzer Web Application, follow these steps:
+
     1. Clone the project repository from GitHub
-    ```python
-    git clone https://github.com/your-username/etf-analyzer.git
-    ```
+
     2. Navigate to the project directory
-    ```python
-    cd etf-analyzer
-    ```
+
     3. Create a virtual environment (optional but recommended)
-    ```python
-    python3 -m venv venv
-    ```
+    
     4. Activate the virtual environment
     5. Install the required dependencies
     6. Run the web application
