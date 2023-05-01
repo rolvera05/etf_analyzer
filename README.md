@@ -87,7 +87,7 @@ To install and run the ETF Analyzer Web Application, follow these steps:
 
 Upon launching the web page via Voila the following should appear:
 
-![Screeen Recording](Images/web_page.mov)
+![Screeen Recording][/Images/web_page.mov]
 
 ---
 
@@ -104,3 +104,6 @@ This project is licensed under the MIT License.
 
 
 
+
+
+[def]: Images/web_page.mov
