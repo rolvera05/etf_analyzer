@@ -8,19 +8,18 @@ The main problem this project addresses is the need for a comprehensive tool to 
 
 ## Technologies
 
-This project leverages jupyter lab and python 3.7 with the following packages:
+To use the ETF Analyzer Web Application, you will Python 3.7 or higher and the following dependencies:
 
 * [pandas](https://github.com/google/python-fire) - For the command line interface, help page, and entrypoint.
 
-* [numpy](https://numpy.org/install/) - For performing mathimatical equations.
+* [voila](https://github.com/voila-dashboards/voila) - A library that turns individual Jupyter notebooks into interactive web pages
 
-* [requests](https://github.com/psf/requests) - allows you to send HTTP requests using Python.
+* [SQLAlchemy](https://pypi.org/project/SQLAlchemy/) - allows you to access and manage SQL databases using Pythonic domain language.
 
-* [JSON](https://pypi.org/project/jsonlib/) - This library puts the response (that is, the data) from an API into a human-readable format.
+* [hvplot](https://hvplot.holoviz.org/) - API for data exploration and visualization.
 
 * [pathlib](https://docs.python.org/3/library/pathlib.html) - Provised method to interact with the filesystem.
 
-* [matplotlib](https://matplotlib.org/stable/users/installing/index.html) - For creating static, animated, and intractive visualizations.
 
 ---
 
@@ -62,14 +61,24 @@ To install and run the ETF Analyzer Web Application, follow these steps:
 
 ## Usage
 
-To use the  program you will utilize the following tools for accessing APIs:
+### Analyzing a Single Asset in the ETF
 
+1. Select the desired asset from the sidebar menu.
+2. Review the first and last five rows of the asset's data to identify the available date range.
+3. Explore the interactive visualization of the asset's daily returns.
+4. Analyze the cumulative returns over time using the provided line plot.
 
-[Free Crypto API](https://alternative.me/crypto/api/) 
-
-[Nasdaq Data Link API](https://data.nasdaq.com/) 
-
-[Alpaca API](https://alpaca.markets/) 
+### Optimizing Data Access with Advanced SQL Queries
+Access the closing prices for a specific asset above a certain threshold.
+Review the resulting DataFrame to examine the selected dates and closing prices.
+Find the top 10 daily returns for a specific asset.
+Review the resulting DataFrame to identify the dates and corresponding daily returns.
+Analyzing the ETF Portfolio
+Review the joined DataFrame containing all four assets in the ETF.
+Create a DataFrame that averages the daily returns for all four assets.
+Calculate the annualized return for the ETF portfolio.
+Calculate the cumulative returns of the ETF portfolio over time.
+Visualize the cumulative return values using the provided interactive line plot. 
 
 ---
 
