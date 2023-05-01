@@ -87,7 +87,7 @@ To install and run the ETF Analyzer Web Application, follow these steps:
 
 Upon launching the web page via Voila the following should appear:
 
-![Screeen Recording](Images/jupyter_lab.png)
+![Screeen Recording](Images/web_page.png)
 
 ---
 
