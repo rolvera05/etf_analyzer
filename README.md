@@ -69,22 +69,25 @@ To install and run the ETF Analyzer Web Application, follow these steps:
 4. Analyze the cumulative returns over time using the provided line plot.
 
 ### Optimizing Data Access with Advanced SQL Queries
-Access the closing prices for a specific asset above a certain threshold.
-Review the resulting DataFrame to examine the selected dates and closing prices.
-Find the top 10 daily returns for a specific asset.
-Review the resulting DataFrame to identify the dates and corresponding daily returns.
-Analyzing the ETF Portfolio
-Review the joined DataFrame containing all four assets in the ETF.
-Create a DataFrame that averages the daily returns for all four assets.
-Calculate the annualized return for the ETF portfolio.
-Calculate the cumulative returns of the ETF portfolio over time.
-Visualize the cumulative return values using the provided interactive line plot. 
+
+1. Access the closing prices for a specific asset above a certain threshold.
+2. Review the resulting DataFrame to examine the selected dates and closing prices.
+3. Find the top 10 daily returns for a specific asset.
+4. Review the resulting DataFrame to identify the dates and corresponding daily returns.
+
+### Analyzing the ETF Portfolio
+
+1. Review the joined DataFrame containing all four assets in the ETF.
+2. Create a DataFrame that averages the daily returns for all four assets.
+3. Calculate the annualized return for the ETF portfolio.
+4. Calculate the cumulative returns of the ETF portfolio over time.
+5. Visualize the cumulative return values using the provided interactive line plot. 
 
 ---
 
-Upon launching the Financial Planning application through jupyter lab you will be greeted with the following prompts.
+Upon launching the web page via Voila the following should appear:
 
-![Financial Planning Prompts](Images/jupyter_lab.png)
+![Screeen Recording](Images/jupyter_lab.png)
 
 ---
 
@@ -96,4 +99,8 @@ Brought to you by Rosalinda Olvera Fernandez and instructor Firas Obeid.
 
 ## License
 
-Available to anyone
+This project is licensed under the MIT License.
+
+
+
+
